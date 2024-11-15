@@ -1,0 +1,73 @@
+.custom-navbar {
+  background-color: #ffc0cb !important;
+  /* Light pink background */
+  border-bottom: 2px solid #ff69b4;
+  /* Darker pink border at the bottom */
+}
+
+.navbar-brand {
+  color: #ff1493 !important;
+  /* Bright pink brand text */
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ff69b4 !important;
+  /* Darker pink links */
+}
+
+.nav-link.active {
+  color: #ff1493 !important;
+  /* Bright pink active link */
+}
+
+.nav-link:hover {
+  color: #ff1493 !important;
+  /* Bright pink on hover */
+}
+
+.navbar-toggler-icon {
+  background-color: #ff69b4;
+  /* Pink toggle icon */
+}
+
+.logout-button,
+/* .change-password-button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-button:hover,
+.change-password-button:hover {
+  background-color: #ff1493;
+} */
+/* Navbar.css */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.change-password-button {
+  margin-right: 20px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-icon {
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logout-icon:hover {
+  color: #ff6347;
+  /* Optional: add hover effect */
+}
